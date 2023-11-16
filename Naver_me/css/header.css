@@ -1,0 +1,106 @@
+.header {
+    /* border: 1px solid black; */
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 400px;
+}
+
+/* gnb */
+.hd_gnb_area {
+    display: flex;
+    justify-content: space-between;
+}
+.hd_1 {
+    display: flex;
+}
+.hd_2 {
+    display: flex;
+}
+
+.hd_btn_menu {
+    position: relative;
+}
+.hd_btn_menu .hd_menu {
+    background-image: url(../img/sp_main.2b96eea2.png);
+    background-size: 434px 414px;
+    background-position: -82px -329px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    z-index: 1;
+}
+
+.hd_btn_np {
+    position: relative;
+    background-image: url(../img/sp_main.2b96eea2.png);
+    background-size: 434px 414px;
+    background-position: -295px -177px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.hd_btn_talk .hd_talk {
+    background-image: url(../img/sp_main.2b96eea2.png);
+    background-size: 434px 414px;
+    background-position: -190px -329px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+}
+
+.hd_btn_notify .hd_notify {
+    background-image: url(../img/sp_main.2b96eea2.png);
+    background-size: 434px 414px;
+    background-position: -136px -329px;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-left: 20px;
+}
+
+/* hd_search */
+.hd_main_img {
+    position: relative;
+}
+.hd_search_area .hd_main_img img {
+    position: absolute;
+    width: 340px;
+    top: -50px;
+    left: 0;
+}
+
+.hd_search {
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #44CF82;
+    border-width: thin;
+    width: 700px;
+    height: 58px;
+    margin-top: 10px;
+    margin-left: 290px;
+    position: absolute;
+    z-index: 1px;
+}
+
+.hd_search .search_form {
+    width: 680px;
+    height: 58px;
+    margin-left: 20px;
+}
+
+.hd_search .search_form .search_input {
+    border-radius: 50px;
+    border: none;
+    width: 670px;
+    height: 55px;
+    font-size: 1.5rem;
+}
+input::placeholder {
+    color: #E4E4E4;
+  }
+
