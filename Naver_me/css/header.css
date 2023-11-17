@@ -104,3 +104,34 @@ input::placeholder {
     color: #E4E4E4;
   }
 
+/* hd_r_banner */
+.hd_r_banner {
+    position: relative;
+}
+
+.hd_r_banner img {
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 162px;
+    height: 40px;
+}
+
+
+
+
+  /* hd_toogle */
+.hd_toogle {
+    position: relative;
+    border: 1px solid black;
+    margin-top: 70px;
+    width: 676px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.hd_toogle div {
+    position: absolute;
+    z-index: 1;
+}

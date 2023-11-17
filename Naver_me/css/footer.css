@@ -1,0 +1,89 @@
+.footer {
+    background-color: #f5f6f7;
+    border-top: 1px solid #ebebeb;
+    height: 460px;
+    margin-top: 80px;
+}
+
+.ft_inner {
+    border: 1px solid black;
+    width: 1280px;
+    height: 380px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.ft_nbanner_area {
+    height: 100px;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ft_nbanner_area .ft_nbanner_1{
+    border: 1px solid black;
+    width: 33%;
+    height: 100px;
+}
+
+.ft_nbanner_area .ft_nbanner_2{
+    border: 1px solid black;
+    width: 33%;
+    height: 100px;
+}
+
+.ft_nbanner_area .ft_nbanner_3{
+    border: 1px solid black;
+    width: 33%;
+    height: 100px;
+
+}
+
+/* --------------------------------------- */
+
+.ft_etc_inner {
+    margin: 0 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ft_etc_inner a {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.ft_link::after {
+    content: "";
+    display: inline-block;
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.2b96eea2.png);
+    background-size: 434px 414px;
+    background-position: -426px 0px;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 12px;
+    margin: 3px 0 0 10px;
+}
+
+/* ------------------------------------------- */
+
+.ft_instructions_area {
+    margin: 0 30px;
+    border: 1px solid black;
+    border-bottom: 1px solid #ebebeb;
+    height: 120px;
+
+}
+
+/* ------------------------------------------- */
+
+.ft_remain {
+    margin: 0 30px;
+    padding-top: 20px;
+    border: 1px solid black;
+}

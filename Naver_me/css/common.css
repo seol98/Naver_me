@@ -24,8 +24,13 @@ input::-ms-reveal{
     display:none;
 }
 
+a {
+    text-decoration: none;
+  }
+
 
 .wrap {
     min-width: 1340px;
     height: 500px;
 }
+
