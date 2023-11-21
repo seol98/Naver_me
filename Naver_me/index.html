@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NNAVER</title>
+    <!-- bxslider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".slider").bxSlider();
+      });
+    </script>
+    <!-- swiper -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/section.css">
 
-
+    
 </head>
 <body>
     <div class="wrap">
@@ -171,40 +186,57 @@
                     <a href="https://alyacofficialblog.tistory.com/5287?&utm_source=NAVER-TB-PC&utm_medium=B2C&utm_campaign=awareness_reach&utm_content=DEMO&utm_term=mypccare_global" target="_blank">
                         <img src="./img/st_l_1.jpg">
                     </a>
-                </div>
 
+                </div>
+                
                 <!-- st_l_2 -->
                 <div class="st_l_2">
                     <div class="st_l_2_text">
-                        <ul>
-                            <li>
-                                <span>뉴스스탠다드</span>
-                                <span>&bull;</span>
-                                <span>언론사편집</span>
-                            </li>
-
-                            <li>
-                                <span>&#47;</span>
-                                <span>엔터</span>
-                            </li>
-
-                            <li>
-                                <span>&#47;</span>
-                                <span>스포츠</span>
-                                <span>
-                                    <img src="https://via.placeholder.com/" width="43px" height="18px">
-                                </span>
-                            </li>
-
-                            <li>
-                                <span>&#47;</span>
-                                <span>경제</span>
-                            </li>
-                        </ul>
-
+                      <ul class="content-container">
+                        <li>
+                          <span onclick="toggleContent('content1')">뉴스스탠다드</span>
+                          <span>&bull;</span>
+                          <span onclick="toggleContent('content2')">언론사편집</span>
+                          <div id="content1" class="toggle-content_1">
+                            <!-- 뉴스스탠다드에 대한 내용 -->
+                            뉴스스탠다드의 내용입니다.
+                          </div>
+                          <div id="content2" class="hidden toggle-content_2">
+                            <!-- 언론사편집에 대한 내용 -->
+                            언론사편집의 내용입니다.
+                          </div>
+                        </li>
+                
+                        <li>
+                          <span onclick="toggleContent('content3')">엔터</span>
+                          <div id="content3" class="hidden toggle-content_3">
+                            <!-- 엔터에 대한 내용 -->
+                            엔터에 대한 내용입니다.
+                          </div>
+                        </li>
+                
+                        <li>
+                          <span onclick="toggleContent('content4')">스포츠</span>
+                          <div id="content4" class="hidden toggle-content_4">
+                            <!-- 스포츠에 대한 내용 -->
+                            스포츠에 대한 내용입니다.
+                          </div>
+                        </li>
+                
+                        <li>
+                          <span onclick="toggleContent('content5')">경제</span>
+                          <div id="content5" class="hidden toggle-content_5">
+                            <!-- 경제에 대한 내용 -->
+                            경제에 대한 내용입니다.
+                          </div>
+                        </li>
+                      </ul>
                     </div>
 
-                </div>
+                    <div class="st_l_3_text">
+                        <p>분야별뉴스</p>
+                    </div>
+                  </div>
 
                 <!-- st_l_3 -->
                 <div class="st_l_3">
@@ -284,7 +316,16 @@
 
                         <div class="st_r_4_mains">
                             <div class="st_r_4_main1">
-                                캐러셀
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide">Slide 1</div>
+                                      <div class="swiper-slide">Slide 2</div>
+                                      
+                                    </div>
+                                    <!-- <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div> -->
+                                  </div>
                             </div>
     
                             <div class="st_r_4_main2">
@@ -387,7 +428,21 @@
                             </div>
 
                             <div class="st_r_5_div_5_2">
-                                캐러셀
+                                <!-- Swiper -->
+                                <div class="swiper mySwiper2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">Slide 1</div>
+                                        <div class="swiper-slide">Slide 2</div>
+                                        <div class="swiper-slide">Slide 3</div>
+                                        <div class="swiper-slide">Slide 4</div>
+                                        <div class="swiper-slide">Slide 5</div>
+                                        <div class="swiper-slide">Slide 6</div>
+                                        <div class="swiper-slide">Slide 7</div>
+                                        <div class="swiper-slide">Slide 8</div>
+                                        <div class="swiper-slide">Slide 9</div>
+                                    </div>
+                                    <!-- <div class="swiper-pagination"></div> -->
+                                </div>
                             </div>
                         </div>
 
@@ -410,7 +465,16 @@
                 <!-- st_r_last -->
                 <div class="st_last">
                     <div class="st_last_div">
-                        캐러셀
+                        <div class="swiper mySwiper3">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">Slide 1</div>
+                              <div class="swiper-slide">Slide 2</div>
+                              
+                            </div>
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                            <div class="swiper-pagination"></div>
+                          </div>
                     </div>
                 </div>
 
@@ -633,6 +697,97 @@
             </div>
         </div>
     </div>
+
+    <!-- st_l_2 토글-->
+    <script>
+        var currentToggleId = 'content1';
     
+        function toggleContent(contentId) {
+          var content = document.getElementById(contentId);
+    
+          // 변경된 부분: 클릭한 것이 현재 열려 있는 것이 아니라면
+          if (currentToggleId !== contentId) {
+            // 현재 열려 있는 것을 닫음
+            var currentContent = document.getElementById(currentToggleId);
+            currentContent.classList.add('hidden');
+    
+            // 클릭한 것을 열어둠
+            content.classList.remove('hidden');
+    
+            // 현재 토글 ID 갱신
+            currentToggleId = contentId;
+          }
+        }
+      </script>
+    <!-- st_4_swiper -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        
+        });
+    </script>
+
+    <!-- st_5 -->
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 3,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 2, // 변경된 부분
+                    spaceBetween: 20,
+                },
+                "@1.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+            },
+        });
+    </script>
+      
+      <!-- st_6 -->
+      <script>
+        var swiper = new Swiper(".mySwiper3", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        
+        });
+    </script>
+
+
+
+
 </body>
 </html>
