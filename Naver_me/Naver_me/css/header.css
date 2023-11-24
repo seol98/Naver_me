@@ -3,7 +3,7 @@
     width: 1280px;
     margin: 0 auto;
     margin-top: 30px;
-    height: 270px;
+    height: 240px;
 }
 
 /* gnb */
@@ -21,6 +21,23 @@
 .hd_btn_menu {
     position: relative;
 }
+
+
+.hd_lnb_1 {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+}
+
+.hd_lnb_2 {
+    position: absolute;
+    top: 15px;
+    right: 67px;
+
+}
+
+
+
 .hd_btn_menu .hd_menu {
     background-image: url(../img/sp_main.2b96eea2.png);
     background-size: 434px 414px;
@@ -99,6 +116,8 @@
     width: 670px;
     height: 55px;
     font-size: 1.5rem;
+    padding-top: 3px;
+    padding-left: 5px;
 }
 input::placeholder {
     color: #E4E4E4;
