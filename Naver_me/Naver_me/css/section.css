@@ -1139,4 +1139,118 @@
     left: -580px;
     
 } 
+.fuck {
+    margin-left: 190px;
+}
+/* ======================================== */
+/* .st_l_3_text {
+    background-color: #F5F7F8;
+    width: 790px;
+    height: 40px;
+    padding: 12px 20px 12px 0;
+    font-size: 14.7px;
+    overflow: hidden;
+    margin-top: 10px;
+} */
+.fourth-container  {
+    display: flex;
+    background-color: #F5F7F8;
+    width: 790px;
+    height: 58px;
+    padding: 19px 20px 12px 10px;
+    font-size: 14.7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.fourth-container li {
+    position: relative;
+    
+}
 
+.fourth-container li span:nth-child(1) {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 40%;
+    padding: 5px 10px;
+    font-weight: normal;
+    
+}
+
+.toggle-fourth_1 {
+    border: 1px solid black;
+    position: absolute;
+    width: 790px;
+    height: 700px;
+    top: 60px;
+    left: -8px;
+}
+
+.toggle-fourth_2 {
+    border: 1px solid black;
+    position: absolute;
+    width: 790px;
+    height: 700px;
+    left: -64px;
+    top: 60px;
+    
+}
+
+.toggle-fourth_3 {
+    border: 1px solid black;
+    position: absolute;
+    width: 790px;
+    height: 700px;
+    top: 60px;
+    left: -135px;
+    
+
+}
+
+.toggle-fourth_4 {
+    border: 1px solid black;
+    position: absolute;
+    width: 790px;
+    height: 700px;
+    top: 60px;
+    left: -207px;
+    
+} 
+
+.toggle-fourth_5 {
+    border: 1px solid black;
+    position: absolute;
+    width: 790px;
+    height: 700px;
+    top: 60px;
+    left: -275px;
+    
+} 
+
+.toggle-fourth_6 {
+    border: 1px solid black;
+    position: absolute;
+    width: 790px;
+    height: 700px;
+    top: 60px;
+    left: -382px;
+    
+} 
+
+.toggle-fourth_7 {
+    border: 1px solid black;
+    position: absolute;
+    width: 790px;
+    height: 700px;
+    top: 60px;
+    left: -454px;
+    
+} 
+
+.hidden {
+    display: none;
+}
+
+.fourth-container li:nth-child(n+2):nth-child(-n+10)::before {
+    content: '';
+    
+}

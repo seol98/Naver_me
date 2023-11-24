@@ -322,21 +322,69 @@
                             <li>
                                 <span onclick="toggleThird('third1')">추천</span>
                                 <span>&bull;</span>
-                                <span onclick="toggleThird('third2')">구독</span>
+                                <span onclick="toggleThird('third1')">구독</span>
                                 <div id="third1" class="toggle-third_1">
                                   <!-- 추천에 대한 내용 -->
                                   <!-- 미니토클메뉴 -->
-                                  <ul class="st_l_5_text">
+                                  <ul class="fourth-container">
                                     
-                                      <li>
-                                        <span>전체</span>
-                                      </li>
-                                      <li>인기</li>
-                                      <li>동물</li>
-                                      <li>여행</li>
-                                      <li>연애결혼</li>
-                                      <li>영화</li>
-                                      <li>육아</li>
+                                    <li>
+                                        <span onclick="toggleFourth('fourth1')">전체</span>
+                                        <div id="fourth1" class="toggle-fourth_1">
+                                          <!-- 전체에 대한 내용 -->
+                                          전체에 대한 내용입니다.
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <span onclick="toggleFourth('fourth2')">인기</span>
+                                        <div id="fourth2" class="hidden toggle-fourth_2">
+                                          <!-- 인기에 대한 내용 -->
+                                          인기에 대한 내용입니다.
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <span onclick="toggleFourth('fourth3')">동물</span>
+                                        <div id="fourth3" class="hidden toggle-fourth_3">
+                                          <!-- 동물에 대한 내용 -->
+                                          동물에 대한 내용입니다.
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <span onclick="toggleFourth('fourth4')">여행</span>
+                                        <div id="fourth4" class="hidden toggle-fourth_4">
+                                          <!-- 여행에 대한 내용 -->
+                                          여행에 대한 내용입니다.
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <span onclick="toggleFourth('fourth5')">연애결혼</span>
+                                        <div id="fourth5" class="hidden toggle-fourth_5">
+                                          <!-- 연애결혼에 대한 내용 -->
+                                          연애결혼에 대한 내용입니다.
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <span onclick="toggleFourth('fourth6')">영화</span>
+                                        <div id="fourth6" class="hidden toggle-fourth_6">
+                                          <!-- 영화에 대한 내용 -->
+                                          영화에 대한 내용입니다.
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <span onclick="toggleFourth('fourth7')">육아</span>
+                                        <div id="fourth7" class="hidden toggle-fourth_7">
+                                          <!-- 육아에 대한 내용 -->
+                                          육아에 대한 내용입니다.
+                                        </div>
+                                    </li>
+
+                                    <span class="fuck">구독홈</span>
 
                                   </ul>
       
@@ -937,7 +985,29 @@
                 }
             }
         </script>
+    
 
+    <!-- st_l_5 토글-->
+    <script>
+        var currentFourthToggleId = 'fourth1';
+
+        function toggleFourth(fourthId) {
+            var fourth = document.getElementById(fourthId);
+
+            if (currentFourthToggleId !== fourthId) {
+                var currentFourth = document.getElementById(currentFourthToggleId);
+                currentFourth.classList.add('hidden');
+
+                fourth.classList.remove('hidden');
+                currentFourthToggleId = fourthId;
+            }
+        }
+
+        window.onload = function () {
+            // 페이지 로드 시 초기에 fourth1을 보이게 함
+            toggleFourth('fourth1');
+        };
+    </script>
 
 
 
