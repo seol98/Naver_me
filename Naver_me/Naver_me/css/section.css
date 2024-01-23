@@ -160,6 +160,17 @@
     margin-top: 10px;
 }
 
+.st_l_3_text_l_2 {
+    background-color: #F5F7F8;
+    width: 670px;
+    height: 40px;
+    padding: 12px 20px 12px 0;
+    font-size: 14.7px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+
 
 /* st_right */
 .st_right {
@@ -993,21 +1004,20 @@
     
 }
 .toggle-second_2 {
-    border: 1px solid black;
     position: absolute;
     width: 790px;
-    height: 280px;
+    height: 370px;
     left: -32px;
 
-    top: 125px;
+    top: 34px;
     
 }
 .toggle-second_3 {
     border: 1px solid black;
     position: absolute;
     width: 790px;
-    height: 280px;
-    top: 125px;
+    height: 350px;
+    top: 50px;
     left: -91px;
     
 
@@ -1347,3 +1357,263 @@
     color: rgba(8,8,8,.5);
 
 } */
+
+/* ================================================== */
+/* st_l_2 */
+.st_l_3_text  {
+    position: relative;
+}
+.swiper-button-next {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    border: 1px solid rgba(211,213,215,.8);
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 0 5px 5px 0;
+}
+.swiper-button-next::after {
+    font-size: 10px;
+    color: #101010;
+}
+.swiper-button-prev {
+    position: absolute;
+    left: 730px;
+    top: 35px;
+    border: 1px solid rgba(211,213,215,.8);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px 0 0 5px;
+}
+.swiper-button-prev::after {
+    font-size: 10px;
+    color: #101010;
+}
+
+.swiper-pagination_1 {
+    position: absolute;
+    width: 50px;
+    left: 690px;
+    top: 15px;
+}
+
+.st_l_3_text_l_2 
+.mySwiper_1 .swiper-slide  {
+    position: relative;
+    
+}
+
+.st_l_3_text_l_2 
+.mySwiper_1 .swiper-slide span {
+    position: absolute;
+    left: 20px;
+    font-weight: 700;
+    font-size: 14.7px;
+    color: #101010;
+}
+.st_l_3_text_l_2 
+.mySwiper_1 .swiper-slide span:nth-child(1)::after {
+    content: "\00B7";
+    padding-left: 5px;
+    color: #D3D5D7;
+}
+
+.st_l_3_text_l_2 
+.mySwiper_2 .swiper-slide span:nth-child(1)::after {
+    content: "\00B7";
+    padding-left: 5px;
+    color: #D3D5D7;
+}
+
+
+.st_l_3_text2_1 {
+    width: 100px;
+    height: 100px;
+    top: -80px;
+    z-index: 99;
+}
+
+.mySwiper_1 .swiper-wrapper .swiper-slide span:nth-child(2) img {
+    position: absolute;
+    width: 23px;
+    height: 13px;
+    top: -4px;
+    left: 93px;
+
+}
+
+.mySwiper_1 .swiper-wrapper .swiper-slide span:nth-child(3) {
+    font-size: 14.7px;
+    left: 145px;
+    color: #9858f5;
+    font-weight: normal;
+
+}
+
+.mySwiper_1 .swiper-wrapper .swiper-slide span:nth-child(4) {
+    font-size: 14.7px;
+    left: 200px;
+    font-weight: normal;
+
+}
+
+.mySwiper_1 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(2) img
+ {
+    position: absolute;
+    width: 50px;
+    height: 13px;
+    top: -4px;
+    left: 93px;
+
+}
+
+.mySwiper_1 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(3) {
+    font-size: 14.7px;
+    left: 170px;
+    color: #9858f5;
+    font-weight: normal;
+
+}
+
+.mySwiper_1 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(4) {
+    font-size: 14.7px;
+    left: 250px;
+    font-weight: normal;
+
+}
+
+/* ..... */
+.mySwiper_1 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(2) img {
+    position: absolute;
+    width: 70px;
+    height: 13px;
+    top: -6px;
+    left: 95px;
+
+}
+
+.mySwiper_1 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(3) {
+    font-size: 14.7px;
+    left: 190px;
+    font-weight: normal;
+    color: #101010;
+}
+
+.mySwiper_1 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(4) {
+    font-size: 14.7px;
+    left: 505px;
+    font-weight: normal;
+    color: #9858f5;
+
+
+}
+
+/* --- */
+
+.mySwiper_2 .swiper-wrapper .swiper-slide span:nth-child(1) {
+    position: absolute;
+    left: 20px;
+    font-weight: 700;
+    font-size: 14.7px;
+    color: #101010;
+
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide span:nth-child(2) img {
+    position: absolute;
+    width: 23px;
+    height: 13px;
+    top: 3px;
+    left: 115px;
+
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide span:nth-child(3) {
+    font-size: 14.7px;
+    left: 140px;
+    color: #9858f5;
+    font-weight: normal;
+
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide span:nth-child(4) {
+    font-size: 14.7px;
+    left: 210px;
+    font-weight: normal;
+
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(2) img
+ {
+    position: absolute;
+    width: 50px;
+    height: 13px;
+    top: 4px;
+    left: 115px;
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(3)
+ {
+    position: absolute;
+    left: 170px;
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide:nth-child(1) span:nth-child(4)
+ {
+    position: absolute;
+    left: 245px;
+}
+
+
+.mySwiper_2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(3) {
+    position: absolute;
+    font-size: 14.7px;
+    left: 145px;
+    color: #9858f5;
+    font-weight: normal;
+
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide:nth-child(2) span:nth-child(4) {
+    position: absolute;
+
+    font-size: 14.7px;
+    left: 210px;
+    font-weight: normal;
+
+}
+
+/* ..... */
+.mySwiper_2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(2) img {
+    position: absolute;
+    width: 70px;
+    height: 13px;
+    left: 115px;
+
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(3) {
+    position: absolute;
+    font-size: 14.7px;
+    left: 190px;
+    font-weight: normal;
+    color: #101010;
+}
+
+.mySwiper_2 .swiper-wrapper .swiper-slide:nth-child(3) span:nth-child(4) {
+    position: absolute;
+    font-size: 14.7px;
+    left: 505px;
+    font-weight: normal;
+    color: #9858f5;
+
+
+}
+
+.swiper-pagination_2 {
+    position: absolute;
+    width: 50px;
+    left: 690px;
+    top: 15px;
+}
